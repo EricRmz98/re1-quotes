@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.txt-22{
+  font-size: 22px;
+}
+
+.marginless{
+  margin: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  max-width: 50rem;
+  padding: 1rem;
+  margin: 0 auto;
+  background: white;
+  border-radius: 0 0 3rem 0;
+}
+
+.card-top{
+  display: flex;
+}
+
+.card-bottom{
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.icon-container{
+  width: 4.37rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.quote-icon{
+  font-size: 32px;
+  color: white;
+}
+
+.quote-container{
+ width: 100%;
+ padding-left: 1rem;
+}
+
+.quote{
+  text-align: center;
+}
+
+.reload-btn{
+  border: 0;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+.reload-icon{
+  font-size: 32px;
+  color: white;
+}
