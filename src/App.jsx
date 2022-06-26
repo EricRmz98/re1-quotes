@@ -4,8 +4,7 @@ import QuoteBox from './components/QuoteBox';
 import quotes from './quotes.json';
 
 const colors = [
-  '#1A1333', '#262949', '#045459', '#087353', '#15C286', '#ABD96D',
-  '#FBBF54', '#EE6B3B', '#EC0F47', '#A02C5D', '#700460', '#022C7A'
+  '#ffbe0b', '#fb5607', '#ff006e', '#8338ec', '#3a86ff'
 ];
 
 function App() {
