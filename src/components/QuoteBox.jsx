@@ -1,4 +1,5 @@
 import quotes from '../quotes.json'
+import ReRandomizeBtn from './ReRandomizeBtn';
 
 const QuoteBox = ({ quoteIndex, color, reRandomize }) => {
     return (
@@ -14,7 +15,7 @@ const QuoteBox = ({ quoteIndex, color, reRandomize }) => {
                 </div>
                 <div className='card-bottom'>
                     <p className='txt-22 marginless' style={{ color: `${color}` }}>{quotes[quoteIndex].author}</p>
-                    <button onClick={reRandomize} className='reload-btn' style={{ background: `${color}` }}><i className="reload-icon fa-solid fa-arrows-rotate"></i></button>
+                    <ReRandomizeBtn reRandomize={reRandomize} color={color} />
                 </div>
             </div>
         </div>
